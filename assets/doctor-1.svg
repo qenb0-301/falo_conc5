@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="420" viewBox="0 0 360 420">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#f6f2ea"/>
+      <stop offset="100%" stop-color="#e9e2d6"/>
+    </linearGradient>
+    <linearGradient id="frame" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#b59a6a"/>
+      <stop offset="100%" stop-color="#d2c09a"/>
+    </linearGradient>
+    <radialGradient id="halo" cx="50%" cy="20%" r="60%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect x="18" y="18" width="324" height="384" rx="32" fill="url(#bg)" stroke="url(#frame)" stroke-width="2"/>
+  <rect x="40" y="40" width="280" height="340" rx="28" fill="#fff" opacity="0.6"/>
+  <circle cx="180" cy="140" r="70" fill="url(#halo)"/>
+  <circle cx="180" cy="150" r="52" fill="#d7c9b3"/>
+  <path d="M115 260C130 225 160 210 180 210C200 210 230 225 245 260V320H115Z" fill="#c3b39b"/>
+  <path d="M150 138C156 128 169 122 180 122C192 122 205 128 210 138" stroke="#7e6f5e" stroke-width="6" stroke-linecap="round"/>
+  <text x="180" y="340" text-anchor="middle" font-family="Manrope, Arial" font-size="20" fill="#6b5d4d">АС</text>
+  <text x="180" y="365" text-anchor="middle" font-family="Manrope, Arial" font-size="12" fill="#8f8172">Консультант</text>
+</svg>
