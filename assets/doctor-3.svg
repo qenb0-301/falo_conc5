@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="420" viewBox="0 0 360 420">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#f7f3ed"/>
+      <stop offset="100%" stop-color="#e9dfd2"/>
+    </linearGradient>
+    <linearGradient id="frame" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#b59a6a"/>
+      <stop offset="100%" stop-color="#d2c09a"/>
+    </linearGradient>
+    <radialGradient id="halo" cx="45%" cy="20%" r="55%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect x="18" y="18" width="324" height="384" rx="32" fill="url(#bg)" stroke="url(#frame)" stroke-width="2"/>
+  <rect x="40" y="40" width="280" height="340" rx="28" fill="#fff" opacity="0.55"/>
+  <circle cx="180" cy="142" r="70" fill="url(#halo)"/>
+  <circle cx="180" cy="150" r="52" fill="#d4c7b1"/>
+  <path d="M110 262C128 230 160 210 180 210C200 210 232 230 250 262V320H110Z" fill="#c2b099"/>
+  <path d="M150 138C158 130 170 126 180 126C192 126 202 130 210 138" stroke="#7e6d5e" stroke-width="6" stroke-linecap="round"/>
+  <text x="180" y="340" text-anchor="middle" font-family="Manrope, Arial" font-size="20" fill="#6b5d4d">НК</text>
+  <text x="180" y="365" text-anchor="middle" font-family="Manrope, Arial" font-size="12" fill="#8f8172">Хирург</text>
+</svg>
